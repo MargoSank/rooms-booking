@@ -1,0 +1,28 @@
+{
+  "name": "rooms-booking-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "watch": "tsc --watch",
+    "start": "nodemon ./src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.3",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.18",
+    "supertest": "^6.2.4",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}

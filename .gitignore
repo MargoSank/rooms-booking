@@ -1,0 +1,6 @@
+rooms-booking-server/node_modules
+rooms-booking-client/node_modules
+build/
+coverage/
+data/
+.idea/
